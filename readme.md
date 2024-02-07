@@ -11,7 +11,9 @@ git clone https://github.com/anilatambharii/azure-VM-reference-arch-linux/
 ```
 3. Change into the directory this created
 4. Now copy and Run this command:
-# initializes the Terraform working directory by downloading  required provider plugins and modules specified in your configuration files (main.tf, variables.tf, etc.). Prepare the working directory for Terraform operations.
+
+initializes the Terraform working directory by downloading  required provider plugins and modules specified in your configuration files (main.tf, variables.tf, etc.). Prepare the working directory for Terraform operations.
+
 ```HCL
 Terraform init
 ```
