@@ -7,7 +7,7 @@
 1. Open a cloud Shell from the Azure portal
 2. Clone this repo by running this command:
 ```
-git clone https://github.com/dawright22/azure-VM-reference-arch-linux.git
+git clone https://github.com/anilatambharii/azure-VM-reference-arch-linux/
 ```
 3. Change into the directory this created
 4. Now copy and Run this command:
