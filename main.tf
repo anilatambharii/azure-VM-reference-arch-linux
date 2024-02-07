@@ -13,15 +13,18 @@ terraform {
   }
 }
 
-
+## name of the Terraform provider for Microsoft Azure.
 provider "azurerm" {
   features {}
 }
 
-resource "random_pet" "name" {
+## generates random strings based on computers names.
+resource "random_computers" "name" {
   prefix = var.resource_group_name_prefix
   length = 1
 }
+
+## generate a random password of length 16 characters, including the special characters specified in the override_special argument.
 
 resource "random_password" "password" {
   length           = 16
